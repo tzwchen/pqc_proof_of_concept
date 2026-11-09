@@ -1,0 +1,10 @@
+Prereqs:
+CMake, python3-dev, pip, venv, Cmake, Pycryptodome, liboqs-python
+
+sudo apt install -y cmake gcc ninja-build build-essential libssl-dev git python3-dev python3-pip python3-venv
+
+pip install pycryptodomex liboqs-python
+
+
+With venv, run 
+python3 pqc.py
